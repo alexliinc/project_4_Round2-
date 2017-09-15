@@ -33,19 +33,12 @@ function renderCharacter(character) {
 
 
     "        <!-- one character -->" +
-    "        <div class='col-md-2' data-character-id='" + character.name + "'>" +
-    "                  <div>" +
+    "        <div class='col-md-4' data-character-id='" + character.name + "'>" +
     "                     <img src=" + character.image + " alt='character image'>" +
-    "                  </div>" +
-    "                  <div>" +
     "                        <span class='character-name'>" + character.name + "</span>" +
-    "                  </div>" +
-    "                <!-- end of character internal row -->" +
-
-    "              <div class='panel-footer'>" +
     "                <button class='btn btn-primary add-song'>SNOG</button>" +
-    "              </div>" +
 
+    "                <!-- end of character internal row -->" +
     "          </div>" +
     "          <!-- end one character -->";
 

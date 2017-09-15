@@ -16,3 +16,9 @@ h1, h3 {
   padding: 9px;
   font-size: 16px;
 }
+
+.chart {
+  width: 500px;
+  height: 500px;
+  background: black;
+}
