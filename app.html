@@ -2,18 +2,35 @@
 <html>
 
 <head>
-  <title>Movie Fire</title>
+  <title>hpCharacter Fire</title>
   <link rel="stylesheet" type="text/css" href="app.css">
+
+  <!-- VENDOR SCRIPTS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-  <h1>Movie Fire</h1>
-  <h3>Save all your Favorite Movies here</h3>
+  <h1>hpCharacter Fire</h1>
+  <h3>Save all your Favorite hpCharacters here</h3>
   <hr />
-  <input type="text" id="movieName" placeholder="Enter your Favorite Movie Name" onkeypress="return saveToList(event)" />
-  <h4>My Favorite Movies</h4>
-  <ol id="favMovies">
+  <!-- CRUD  -->
+  <input type="text" id="hpCharacterName" placeholder="Enter your Fav Character" onkeypress="return saveToList(event)" />
+  <h4>My Favorite hpCharacters</h4>
+  <ol id="favhpCharacters">
   </ol>
+
+  <!-- SHOWING characters -->
+  <section>
+    <div class="row" id="characters">
+
+    </div>
+  </section>
+
+  <!-- CHARTS -->
+  <div class="chart">
+    <canvas id="myChart" width="100px" height="100px"></canvas>
+  </div>
   <script src="https://www.gstatic.com/firebasejs/4.3.1/firebase.js"></script>
   <script>
     // Initialize Firebase
@@ -29,4 +46,9 @@
   </script>
   <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
   <script type="text/javascript" src="app.js"></script>
+
+  <!-- charts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.bundle.min.js"></script>
+  <script type="text/javascript" src="chart.js"></script>
+  <script type="text/javascript" src="apiCall.js"></script>
 </body>
