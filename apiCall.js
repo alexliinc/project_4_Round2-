@@ -33,11 +33,9 @@ function renderCharacter(character) {
 
 
     "        <!-- one character -->" +
-    "        <div class='col-md-4' data-character-id='" + character.name + "'>" +
-    "                     <img src=" + character.image + " alt='character image'>" +
-    "                        <span class='character-name'>" + character.name + "</span>" +
-    "                <button class='btn btn-primary add-song'>SNOG</button>" +
-
+    "        <div class='col-xl-4' data-character-id='" + character.name + "'>" +
+    "                <img src=" + character.image + " alt='character image'>" +
+    "                <span class='character-name'>" + character.name + "</span>" +
     "                <!-- end of character internal row -->" +
     "          </div>" +
     "          <!-- end one character -->";
