@@ -9,59 +9,60 @@
   <!-- VENDOR SCRIPTS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <!-- https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.extensions.min.js -->
-
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.extensions.min.js"></script>
+  <script src="fullPage.js"></script>
 </head>
 
 <body>
-  <!-- <div class="section">
-    <div class="slide"> Slide 1 </div>
-    <div class="slide"> Slide 2 </div>
-    <div class="slide"> Slide 3 </div>
-    <div class="slide"> Slide 4 </div>
-  </div> -->
 
-  <h1>Harry Potter Fav & Snog</h1>
-  <h3>Save all your Favorite Harry Potter Characters here:</h3>
-  <hr />
-  <!-- CRUD  -->
-  <input type="text" id="hpCharacterName" placeholder="Enter Character" onkeypress="return saveToList(event)" />
-  <h4>My Favorite Harry Potter Characters</h4>
-  <ol id="favhpCharacters">
-  </ol>
-
-  <!-- SHOWING characters -->
-  <div class="container">
-    <div class="row" id="characters">
-
+  <div id="fullpage">
+    <div class="section active" id="section0">
+      <h1>Harry Potter Fav & Snog</h1>
+      <h3>Save all your Favorite Harry Potter Characters here:</h3>
+      <hr />
+      <!-- CRUD  -->
+      <input type="text" id="hpCharacterName" placeholder="Enter Character" onkeypress="return saveToList(event)" />
+      <h4>My Favorite Harry Potter Characters</h4>
+      <ol id="favhpCharacters">
+      </ol>
     </div>
-  </div>
+    <div class="section" id="section1">
+      <div class="slide ">
+        <!-- SHOWING characters -->
+        <div class="container">
+          <div class="row" id="characters">
 
-  <br>
-  <br>
-
-  <div class="container">
-    <div class="row" id="characters">
-      <div class='col-6 col-md-4'>
-        <button id="hp" class='btn btn-primary add-song'>SNOG Harry Potter</button>
-      </div>
-      <div class='col-6 col-md-4'>
-        <button id="hg" class='btn btn-primary add-song'>SNOG Hermione Granger</button>
-      </div>
-      <div class='col-6 col-md-4'>
-        <button id="rw" class='btn btn-primary add-song'>SNOG Ron Weasley</button>
-      </div>
-    </div>
-    <div class="row">
-      <!-- CHARTS -->
-      <center>
-        <div class="chart">
-          <canvas id="myChart" width="100px" height="100px"></canvas>
+          </div>
         </div>
-      </center>
+
+        <br>
+        <br>
+
+        <div class="container">
+          <div class="row" id="characters">
+            <div class='col-6 col-md-4'>
+              <button id="hp" class='btn btn-primary add-song'>SNOG Harry Potter</button>
+            </div>
+            <div class='col-6 col-md-4'>
+              <button id="hg" class='btn btn-primary add-song'>SNOG Hermione Granger</button>
+            </div>
+            <div class='col-6 col-md-4'>
+              <button id="rw" class='btn btn-primary add-song'>SNOG Ron Weasley</button>
+            </div>
+          </div>
+          <div class="row">
+            <!-- CHARTS -->
+            <center>
+              <div class="chart">
+                <canvas id="myChart" width="100px" height="100px"></canvas>
+              </div>
+            </center>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-
 
 
   <script src="https://www.gstatic.com/firebasejs/4.3.1/firebase.js"></script>
