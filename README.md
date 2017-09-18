@@ -8,9 +8,9 @@ Developer @GA in DENVER<br/>
 Project Idea:<br/>
 User will be given a random character from Harry Potter and must decide whether to Kill Marry Or Kiss them<br/>
 
-TOOLS: HTML CSS JS EXPRESS MONGODB MONGOOSE AJAX JQUERY EJS<br/>
+TOOLS: HTML CSS JS Chart.js fullPage.JS FIREBASE JQUERY<br/>
 Why these Tools:<br/>
-Using EJS for templating on the front end. Using Mongo and Mongoose for backend and backend interpreter. Using Express and Ajax for backend serve and routing <br/>
+Just last minute change of everything lols<br/>
 
 General Approach:<br/>
 Just working on a MVC of getting an API from GoT and being able to make some decision off that. Once you make a decision you can be able to edit that record as well as deleting that record.<br/>
