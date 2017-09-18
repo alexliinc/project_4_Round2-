@@ -5,23 +5,23 @@ Developer @GA in DENVER<br/>
 <h1>WELCOME!!!</h1><br/>
 [Link to the Project]()
 
-<h2>Project Idea:</h2><br/>
+Project Idea:<br/>
 User will be given a random character from Harry Potter and must decide whether to Kill Marry Or Kiss them<br/>
 
-<h2>TOOLS: HTML CSS JS Chart.js fullPage.JS FIREBASE JQUERY SURGE</h2><br/>
-<h2>Why these Tools:</h2><br/>
+TOOLS: HTML CSS JS Chart.js fullPage.JS FIREBASE JQUERY SURGE<br/>
+Why these Tools:<br/>
 Just last minute change of everything lols<br/>
 
-<h2>General Approach:</h2><br/>
+General Approach:<br/>
 Just working on a MVC of getting an API from GoT and being able to make some decision off that. Once you make a decision you can be able to edit that record as well as deleting that record.<br/>
 
-<h2>Installation instructions:</h2><br/>
+Installation instructions:<br/>
 nada homie<br/>
 
-<h2>Screenshots of app:</h2><br/>
+Screenshots of app:<br/>
 ![Image of Yaktocat](./hp.png)<br/>
 
-<h2>future endeavors:</h2><br/>
+future endeavors:<br/>
 Pulling random characters<br/>
 Saving chart to db<br/>
 Pick a new idea hahahahahahahahahahahahahahahahahaha<br/>
