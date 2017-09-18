@@ -38,3 +38,8 @@ h1, h3 {
   width: 200px;
   height: 200px;
 }
+
+.about {
+  color: white;
+  text-align: center;
+}

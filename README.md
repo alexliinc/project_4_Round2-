@@ -18,7 +18,6 @@ Just working on a MVC of getting an API from GoT and being able to make some dec
 Installation instructions:<br/>
 nada homie<br/>
 
-
 Screenshots of app:<br/>
 ![Image of Yaktocat](./hp.png)<br/>
 
