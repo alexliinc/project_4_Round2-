@@ -52,7 +52,7 @@ Day 4:<br/>
 
 Day 4.56:<br/>
 (ノಠ益ಠ)ノ彡┻━┻<br/>
--first try [github](https://github.com/alexliinc/project_4) <br/>
+-first try but gave up on [github](https://github.com/alexliinc/project_4) <br/>
 
 
 Day 4.9999999999999:<br/>
