@@ -5,6 +5,8 @@ Developer @GA in DENVER<br/>
 <h1>WELCOME!!!</h1><br/>
 [Link to the Project](nope-project4-nope.surge.sh)
 
+<p>Quote that made me lol: Dont call on me. I have the confidence of a chicken nugget... </p>
+
 <h2>Project Idea:</h2><br/>
 User will be given a random character from Harry Potter and must decide whether to Kill Marry Or Kiss them<br/>
 
