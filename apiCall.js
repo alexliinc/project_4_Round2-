@@ -1,6 +1,12 @@
 // Document has to be ready
 $(document).ready(function() {
   console.log('api.js loaded!');
+
+  // $('#fullpage').fullpage({
+  //   anchors: ['page1', 'page2', 'page3', 'page4'],
+  //   sectionsColor: ['yellow', 'orange', '#C0C0C0', '#ADD8E6'],
+  // });
+
   const apiUrl = 'http://hp-api.herokuapp.com/api/characters';
   // Getting all characters
   $.ajax({
