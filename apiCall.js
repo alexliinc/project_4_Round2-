@@ -30,14 +30,12 @@ function handleGetAllError(data) {
 // ------------------------------------------------------------
 function renderCharacter(character) {
   var charactersHTML =
-
-
     "        <!-- one character -->" +
-    "        <div class='col-xl-4' data-character-id='" + character.name + "'>" +
-    "                <img src=" + character.image + " alt='character image'>" +
-    "                <span class='character-name'>" + character.name + "</span>" +
+    "        <div class='col-6 col-md-4' data-character-id='" + character.name + "'>" +
+    <!--character.name +-->
+    "                <img id='myimage' src=" + character.image + " alt='character image'>" +
     "                <!-- end of character internal row -->" +
-    "          </div>" +
+    "        </div>" +
     "          <!-- end one character -->";
 
   // render to the page with jQuery

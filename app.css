@@ -1,9 +1,20 @@
 body {
   font-family: "calibri";
-  background: #efefef;
+  /*background: #efefef;*/
   padding: 32px;
   padding-top: 16px;
   color: #333;
+  height: 200px;
+  background: red;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(red, yellow);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(red, yellow);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(red, yellow);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(red, yellow);
+  /* Standard syntax */
 }
 
 h1, h3 {
@@ -21,4 +32,9 @@ h1, h3 {
   width: 500px;
   height: 500px;
   background: black;
+}
+
+#myimage {
+  width: 200px;
+  height: 200px;
 }

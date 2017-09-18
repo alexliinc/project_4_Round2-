@@ -4,36 +4,58 @@
 <head>
   <title>hpCharacter Fire</title>
   <link rel="stylesheet" type="text/css" href="app.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
   <!-- VENDOR SCRIPTS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
-  <h1>hpCharacter Fire</h1>
-  <h3>Save all your Favorite hpCharacters here</h3>
+  <h1>Harry Potter Fav & Snog</h1>
+  <h3>Save all your Favorite Harry Potter Characters here:</h3>
   <hr />
   <!-- CRUD  -->
-  <input type="text" id="hpCharacterName" placeholder="Enter your Fav Character" onkeypress="return saveToList(event)" />
-  <h4>My Favorite hpCharacters</h4>
+  <input type="text" id="hpCharacterName" placeholder="Enter Character" onkeypress="return saveToList(event)" />
+  <h4>My Favorite Harry Potter Characters</h4>
   <ol id="favhpCharacters">
   </ol>
 
   <!-- SHOWING characters -->
-  <section>
+  <div class="container">
     <div class="row" id="characters">
 
     </div>
-  </section>
-  <button id="hp" class='btn btn-primary add-song'>SNOG HP</button>
-  <button id="hg" class='btn btn-primary add-song'>SNOG HG</button>
-  <button id="rw" class='btn btn-primary add-song'>SNOG RW</button>
-
-  <!-- CHARTS -->
-  <div class="chart">
-    <canvas id="myChart" width="100px" height="100px"></canvas>
   </div>
+
+  <br>
+  <br>
+
+  <div class="container">
+    <div class="row" id="characters">
+      <div class='col-6 col-md-4'>
+        <button id="hp" class='btn btn-primary add-song'>SNOG Harry Potter</button>
+      </div>
+      <div class='col-6 col-md-4'>
+        <button id="hg" class='btn btn-primary add-song'>SNOG Hermione Granger</button>
+      </div>
+      <div class='col-6 col-md-4'>
+        <button id="rw" class='btn btn-primary add-song'>SNOG Ron Weasley</button>
+      </div>
+    </div>
+    <div class="row">
+      <!-- CHARTS -->
+      <center>
+        <div class="chart">
+          <canvas id="myChart" width="100px" height="100px"></canvas>
+        </div>
+      </center>
+    </div>
+  </div>
+
+
+
   <script src="https://www.gstatic.com/firebasejs/4.3.1/firebase.js"></script>
   <script>
     // Initialize Firebase
